@@ -19,5 +19,5 @@
 
 ## Models
 
-- models for this work
+- [models](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Models) for this work
 - more models from [CMT page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md)
