@@ -17,14 +17,36 @@
 - Joint Template-Learning and Registration Mode – **CMT-reg**
 - CartiMorph Toolbox (CMT)
 
-## Models
+## Models for CMT
 
 - [models](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Models) (both for segmentation and registration) for this work – can be loaded into CMT
 - more models from the [CMT models page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md)
 
 ## Data
 
-[Data](https://drive.google.com/drive/folders/1N5FTNANf7nk1koLUIhoA8X5iBJyBxLBn) for model training, inference, and evaluation.
+[Data for this repo](https://drive.google.com/drive/folders/1x_8vAgq8NRCKCoVBl-Y5jlk_kvfaYCdt?usp=sharing) for model training, inference, and evaluation
+
+```
+# data folder structure
+├── Code
+  ├── Aladdin
+    ├── Model
+  ├── LapIRN
+    ├── Model
+├── Data
+  ├── Aladdin
+  ├── CMT_data4AMAI 
+  ├── LapIRN
+```
+
+- How to use files in the `Data` folder?
+  1. clone this repo: `CMT-AMAI24paper`
+  2. put the `Data` folder under `CMT-AMAI24paper/`
+- How to use files in the `Code` folder?
+  1. clone this repo: `CMT-AMAI24paper`
+  2. put corresponding `Model` folders to
+     - `CMT-AMAI24paper/Code/Aladdin/`
+     - `CMT-AMAI24paper/Code/LapIRN/`
 
 ## Code
 
