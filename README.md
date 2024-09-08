@@ -8,21 +8,46 @@
 
 ![paper-CMT](README.assets/paper-CMT.png)
 
+
+
 ## TL;DR
 
 [CMT](https://github.com/YongchengYAO/CartiMorph-Toolbox), a toolbox for knee MRI analysis, model training, and visualization.
+
+
 
 ## Contributions
 
 - Joint Template-Learning and Registration Mode – **CMT-reg**
 - CartiMorph Toolbox (CMT)
 
+
+
 ## Models for CMT
 
 - [models](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Models) (both for segmentation and registration) for this work – can be loaded into CMT
 - more models from the [CMT models page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md)
 
+
+
+## Code
+
+We compared the proposed **CMT-reg** with Aladdin and LapIRN.
+
+- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/Aladdin/Study) for Aladdin training, inference, and evaluation (for reproducing the results in Tables 2 & 3)
+- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/LapIRN/Study) for LapIRN training, inference, and evaluation (for reproducing the results in Tables 2 & 3)
+- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/CMT_code4AMAI/study) for CMT evaluation (for reproducing the results in Table 3)
+- Training, inference, and evaluation of **CMT-reg** are implemented in CMT, set these parameters in CMT:
+  - *Cropped Image Size*: 64, 128, 128
+  - *Training Epoch*: 2000
+  - *Network Width*: x3
+  - *Loss*: MSE+LNCC
+
+
+
 ## Data
+
+**This is the data used for reproducing Tables 2 & 3.**
 
 [Data for this repo](https://drive.google.com/drive/folders/1x_8vAgq8NRCKCoVBl-Y5jlk_kvfaYCdt?usp=sharing) for model training, inference, and evaluation
 
@@ -48,39 +73,34 @@
      - `CMT-AMAI24paper/Code/Aladdin/`
      - `CMT-AMAI24paper/Code/LapIRN/`
 
-## Code
 
-We compared the proposed **CMT-reg** with Aladdin and LapIRN.
-
-- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/Aladdin/Study) for Aladdin training, inference, and evaluation (for reproducing the results in Table 2 & 3)
-- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/LapIRN/Study) for LapIRN training, inference, and evaluation (for reproducing the results in Table 2 & 3)
-- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/CMT_code4AMAI/study) for CMT evaluation (for reproducing the results in Table 3)
-- Training, inference, and evaluation of **CMT-reg** are implemented in CMT, set these parameters in CMT:
-  - *Cropped Image Size*: 64, 128, 128
-  - *Training Epoch*: 2000
-  - *Network Width*: x3
-  - *Loss*: MSE+LNCC
 
 ## Raw Data
-
-Data Sources:
 
 - MR Image: [OAI](https://nda.nih.gov/oai/)
 - Annotation: OAI-ZIB
 
 Data Information: [here](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/DataInfo/OAIZIB) (link CMT-ID to OAI-SubjectID)
 
+
+
 ## Processed Data from CartiMorph
+
+**This is the data used for training CMT-reg and nnUNet in CMT**
 
 If you use the [processed data](https://drive.google.com/drive/folders/13_afAKSH7ZMOI_Nk2gfoihbJKwafw1l9?usp=sharing), please note that the manual segmentation annotations comes from this work: 
 
 - Automated Segmentation of Knee Bone and Cartilage combining Statistical Shape Knowledge and Convolutional Neural Networks: Data from the Osteoarthritis Initiative (https://doi.org/10.1016/j.media.2018.11.009)
+
+
 
 ## Citation
 
 ```
 (paper in press)
 ```
+
+
 
 ## Acknowledgment
 
