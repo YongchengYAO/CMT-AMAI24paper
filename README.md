@@ -42,6 +42,19 @@ We compared the proposed **CMT-reg** with Aladdin and LapIRN.
 ## Citation
 
 ```
+(paper in press)
+```
+
+## Acknowledgment
+
+The training, inference, and evaluation code for Aladdin and LapIRN are adapted from these GitHub repos:
+
+- Aladdin: https://github.com/uncbiag/Aladdin
+- LapIRN: https://github.com/cwmok/LapIRN
+
+CMT is based on CartiMorph: https://github.com/YongchengYAO/CartiMorph
+
+```
 @article{YAO2024103035,
 title = {CartiMorph: A framework for automated knee articular cartilage morphometrics},
 journal = {Medical Image Analysis},
