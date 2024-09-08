@@ -14,27 +14,26 @@
 
 ## Contributions
 
-- Joint Template-Learning and Registration Mode – CMT-reg
+- Joint Template-Learning and Registration Mode – **CMT-reg**
 - CartiMorph Toolbox (CMT)
 
 ## Models
 
-- [models](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Models) for this work
-- more models from [CMT page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md)
+- [models](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Models) (both for segmentation and registration) for this work – can be loaded into CMT
+- more models from the [CMT models page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md)
 
 ## Data
 
-[Data](https://drive.google.com/drive/folders/1x_8vAgq8NRCKCoVBl-Y5jlk_kvfaYCdt?usp=sharing) for model training, inference, and evaluation.
+[Data](https://drive.google.com/drive/folders/1N5FTNANf7nk1koLUIhoA8X5iBJyBxLBn) for model training, inference, and evaluation.
 
 ## Code
 
-- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/Aladdin/Study) for Aladdin training, inference, and evaluation.
-- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/LapIRN/Study) for LapIRN training, inference, and evaluation.
-- 
+We compared the proposed **CMT-reg** with Aladdin and LapIRN.
 
-
-
-
+- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/Aladdin/Study) for Aladdin training, inference, and evaluation
+- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/LapIRN/Study) for LapIRN training, inference, and evaluation
+- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/CMT_code4AMAI/study) for CMT evaluation (for reproducing the results in Table 3)
+- Training, inference, and evaluation of **CMT-reg** are implemented in CMT 
 
 ## Citation
 
