@@ -13,19 +13,24 @@
 clc;
 clear;
 
+% -------------------
+% set variables
+TaskName = 'Task002_csd3-OAIZIB-nnunet1000-vxm2000x3MSELNCC';
+dir_CartiMorphToolbox = "path/to/working/directory/of/CartiMorphToolbox";
+% -------------------
+
 % -------------------------------------
 % configs
 % -------------------------------------
 % dirs
-wd = '/Users/vincent/Documents/CartiMorphToolbox/CMT_paper';
-dir_CMT_code = '/Users/vincent/Documents/CartiMorphToolbox/CMT_paper/code';
-dir_eval = fullfile(wd, 'eval');
+dir_CMT_code = '../code';
+dir_eval = "../../../Results/CMT/eval";
 
 % add functions
 addpath(genpath(dir_CMT_code));
 
 % data
-dir_seg = '/Users/vincent/Documents/CartiMorphToolbox/Models_training/VoxelMorph/vxm_inference/Task002_csd3-OAIZIB-nnunet1000-vxm2000x3MSELNCC/temp2img_warpedTempSeg_Ts';
+dir_seg = fullfile(dir_CartiMorphToolbox, 'Models_training', 'VoxelMorph', 'vxm_inference', TaskName, 'temp2img_warpedTempSeg_Ts');
 caseIDs_dataset3 = [465,466,472,474,476,486,489,492,494,495,497,500]';
 
 

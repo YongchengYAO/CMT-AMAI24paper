@@ -17,16 +17,15 @@ clear;
 % configs
 % -------------------------------------
 % dirs
-wd = '/Users/vincent/Documents/CartiMorphToolbox/CMT_paper';
-dir_data = fullfile(wd, 'data');
-dir_CMT_code = '/Users/vincent/Documents/CartiMorphToolbox/CMT_paper/code';
-dir_eval = fullfile(wd, 'eval');
+dir_data = '../../../Data/CMT_data4AMAI';
+dir_CMT_code = '../code';
+evalFolder = "../../../Results/CMT/eval";
 
 % add functions
 addpath(genpath(dir_CMT_code));
 
 % data 
-dir_mesh_scB_GT = fullfile(dir_data, 'Task111_OAIZIB_scratch', 'Mesh_scB');
+dir_mesh_scB_GT = fullfile(dir_data, 'GT', 'Mesh_scB');
 
 % ======
 % label : ROI

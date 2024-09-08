@@ -22,6 +22,20 @@
 - [models](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Models) for this work
 - more models from [CMT page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md)
 
+## Data
+
+[Data](https://drive.google.com/drive/folders/1x_8vAgq8NRCKCoVBl-Y5jlk_kvfaYCdt?usp=sharing) for model training, inference, and evaluation.
+
+## Code
+
+- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/Aladdin/Study) for Aladdin training, inference, and evaluation.
+- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/LapIRN/Study) for LapIRN training, inference, and evaluation.
+- 
+
+
+
+
+
 ## Citation
 
 ```
