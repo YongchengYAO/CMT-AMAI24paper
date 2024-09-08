@@ -52,8 +52,8 @@
 
 We compared the proposed **CMT-reg** with Aladdin and LapIRN.
 
-- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/Aladdin/Study) for Aladdin training, inference, and evaluation
-- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/LapIRN/Study) for LapIRN training, inference, and evaluation
+- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/Aladdin/Study) for Aladdin training, inference, and evaluation (for reproducing the results in Table 2 & 3)
+- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/LapIRN/Study) for LapIRN training, inference, and evaluation (for reproducing the results in Table 2 & 3)
 - [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/CMT_code4AMAI/study) for CMT evaluation (for reproducing the results in Table 3)
 - Training, inference, and evaluation of **CMT-reg** are implemented in CMT, set these parameters in CMT:
   - *Cropped Image Size*: 64, 128, 128
@@ -66,9 +66,15 @@ We compared the proposed **CMT-reg** with Aladdin and LapIRN.
 Data Sources:
 
 - MR Image: [OAI](https://nda.nih.gov/oai/)
-- Annotation: [OAI-ZIB](https://pubdata.zib.de)
+- Annotation: OAI-ZIB
 
 Data Information: [here](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/DataInfo/OAIZIB) (link CMT-ID to OAI-SubjectID)
+
+## Processed Data from CartiMorph
+
+If you use the [processed data](https://drive.google.com/drive/folders/13_afAKSH7ZMOI_Nk2gfoihbJKwafw1l9?usp=sharing), please note that the manual segmentation annotations comes from this work: 
+
+- Automated Segmentation of Knee Bone and Cartilage combining Statistical Shape Knowledge and Convolutional Neural Networks: Data from the Osteoarthritis Initiative (https://doi.org/10.1016/j.media.2018.11.009)
 
 ## Citation
 
