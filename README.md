@@ -33,7 +33,11 @@ We compared the proposed **CMT-reg** with Aladdin and LapIRN.
 - [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/Aladdin/Study) for Aladdin training, inference, and evaluation
 - [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/LapIRN/Study) for LapIRN training, inference, and evaluation
 - [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/CMT_code4AMAI/study) for CMT evaluation (for reproducing the results in Table 3)
-- Training, inference, and evaluation of **CMT-reg** are implemented in CMT 
+- Training, inference, and evaluation of **CMT-reg** are implemented in CMT, set these parameters in CMT:
+  - *Cropped Image Size*: 64, 128, 128
+  - *Training Epoch*: 2000
+  - *Network Width*: x3
+  - *Loss*: MSE+LNCC
 
 ## Citation
 
