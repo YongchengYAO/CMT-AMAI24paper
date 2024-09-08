@@ -61,6 +61,15 @@ We compared the proposed **CMT-reg** with Aladdin and LapIRN.
   - *Network Width*: x3
   - *Loss*: MSE+LNCC
 
+## Raw Data
+
+Data Sources:
+
+- MR Image: [OAI](https://nda.nih.gov/oai/)
+- Annotation: [OAI-ZIB](https://pubdata.zib.de)
+
+Data Information: [here](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/DataInfo/OAIZIB) (link CMT-ID to OAI-SubjectID)
+
 ## Citation
 
 ```
