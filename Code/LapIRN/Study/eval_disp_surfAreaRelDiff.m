@@ -19,7 +19,7 @@ clear;
 % dirs
 wd = '../../../Results/LapIRN';
 dir_CMT_code = '../../CMT_code4AMAI/code';
-dir_CMT_eval = './../CMT_code4AMAI/eval';
+dir_CMT_eval = '../../CMT_code4AMAI/eval';
 dir_results = fullfile(wd, 'disp');
 dir_eval = fullfile(dir_results, 'eval');
 

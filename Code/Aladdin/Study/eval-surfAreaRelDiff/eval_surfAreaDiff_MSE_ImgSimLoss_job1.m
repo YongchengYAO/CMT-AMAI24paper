@@ -10,26 +10,43 @@
 % Copyright 2020 Yongcheng YAO
 % ------------------------------------------------------------------------------
 
-clc;
 clear;
 
 % -------------------------------------
 % configs
 % -------------------------------------
+model = 'Aladdin_OAIZIB_MSE_ImgSimLoss';
+run = 'job1';
+
 % dirs
-wd = '../../../Results/LapIRN';
 dir_CMT_code = '../../CMT_code4AMAI/code';
 dir_CMT_eval = '../../CMT_code4AMAI/eval';
-dir_results = fullfile(wd, 'diff');
-dir_eval = fullfile(dir_results, 'eval');
-
+dir_eval = fullfile('../../Evaluation', model, run);
 
 % add functions
 addpath(genpath(dir_CMT_code));
 
 % data
-dir_seg = fullfile(dir_results, 'OAIZIB-temp2img-seg');
+dir_seg = fullfile(dir_eval, 'movedTempSeg');
 caseIDs_dataset3 = [465,466,472,474,476,486,489,492,494,495,497,500]';
+
+
+% ======
+% label : ROI
+% 1: Femur
+% 2: FC
+% 3: Tibia
+% 4: mTC
+% 5: lTC
+% ======
+cartilage_names = {'FemoralCartilage', 'mTibialCartilage', 'lTibialCartilage'};
+cartilage_labels.FemoralCartilage = 2;
+cartilage_labels.mTibialCartilage = 4;
+cartilage_labels.lTibialCartilage = 5;
+
+bone_names = {'Femur', 'Tibia'};
+bone_labels.Femur = 1;
+bone_labels.Tibia = 3;
 % -------------------------------------
 
 
