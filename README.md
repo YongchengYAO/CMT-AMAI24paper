@@ -30,13 +30,21 @@
 
 
 
+## Packages & Dependencies
+
+```bash
+conda create --name CMT_AMAI24paper --file env.txt
+```
+
+
+
 ## Code
 
 We compared the proposed **CMT-reg** with Aladdin and LapIRN.
 
-- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/Aladdin/Study) for Aladdin training, inference, and evaluation (for reproducing the results in Tables 2 & 3)
-- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/LapIRN/Study) for LapIRN training, inference, and evaluation (for reproducing the results in Tables 2 & 3)
-- [Code](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/CMT_code4AMAI/study) for CMT evaluation (for reproducing the results in Table 3)
+- [Code for Aladdin training, inference, and evaluation](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/Aladdin/Study) (for reproducing the results in Tables 2 & 3)
+- [Code for LapIRN training, inference, and evaluation](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/LapIRN/Study)  (for reproducing the results in Tables 2 & 3)
+- [Code for CMT evaluation](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/CMT_code4AMAI/study)  (for reproducing the results in Table 3)
 - Training, inference, and evaluation of **CMT-reg** are implemented in CMT, set these parameters in CMT:
   - *Cropped Image Size*: 64, 128, 128
   - *Training Epoch*: 2000
