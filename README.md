@@ -30,17 +30,23 @@
 
 
 
-## Packages & Dependencies
+## Quick Start
+
+- For model evaluation and the training of other SoTA models:
 
 ```bash
+git clone https://github.com/YongchengYAO/CMT-AMAI24paper.git
+cd CMT-AMAI24paper
 conda create --name CMT_AMAI24paper --file env.txt
 ```
+
+- For model training in CMT, see the [instructions for CMT](https://github.com/YongchengYAO/CartiMorph-Toolbox?tab=readme-ov-file#step-by-step-instruction)
 
 
 
 ## Code
 
-We compared the proposed **CMT-reg** with Aladdin and LapIRN.
+We compared the proposed **CMT-reg** with other template learning and/or registration models – Aladdin and LapIRN.
 
 - [Code for Aladdin training, inference, and evaluation](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/Aladdin/Study) (for reproducing the results in Tables 2 & 3)
 - [Code for LapIRN training, inference, and evaluation](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/LapIRN/Study)  (for reproducing the results in Tables 2 & 3)
