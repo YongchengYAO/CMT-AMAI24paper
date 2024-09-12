@@ -111,7 +111,19 @@ If you use the [processed data](https://drive.google.com/drive/folders/13_afAKSH
 ## Citation
 
 ```
-(paper in press)
+(conference proceedings in press)
+```
+
+```
+@misc{yao2024quantifyingkneecartilageshape,
+      title={Quantifying Knee Cartilage Shape and Lesion: From Image to Metrics}, 
+      author={Yongcheng Yao and Weitian Chen},
+      year={2024},
+      eprint={2409.07361},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2409.07361}, 
+}
 ```
 
 
