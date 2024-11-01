@@ -23,7 +23,7 @@
 
 
 
-## Models for CMT
+## :rocket: Models for CMT
 
 - [models](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Models) (both for segmentation and registration) for this work – can be loaded into CMT
 - more models from the [CMT models page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md)
@@ -59,7 +59,7 @@ We compared the proposed **CMT-reg** with other template learning and/or registr
 
 
 
-## Data
+## :rocket: Data for Validation
 
 **This is the data used for reproducing Tables 2 & 3.**
 
@@ -89,7 +89,7 @@ We compared the proposed **CMT-reg** with other template learning and/or registr
 
 
 
-## Raw Data
+## Raw Data for Model Training
 
 - MR Image: [OAI](https://nda.nih.gov/oai/)
 - Annotation: OAI-ZIB
@@ -98,7 +98,7 @@ Data Information: [here](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/ma
 
 
 
-## Preprocessed Data: [OAIZIB-CM](https://drive.google.com/drive/folders/13_afAKSH7ZMOI_Nk2gfoihbJKwafw1l9?usp=sharing)
+## :rocket: Preprocessed Data for Model Training: [OAIZIB-CM](https://drive.google.com/drive/folders/13_afAKSH7ZMOI_Nk2gfoihbJKwafw1l9?usp=sharing)
 
 **This is the data used for training CMT-reg and nnUNet in CMT**
 
