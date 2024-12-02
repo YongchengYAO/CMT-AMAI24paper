@@ -8,27 +8,27 @@
 
 ![paper-CMT](README.assets/paper-CMT.png)
 
-
+<br/><br/>
 
 ## TL;DR
 
 [CMT](https://github.com/YongchengYAO/CartiMorph-Toolbox), a toolbox for knee MRI analysis, model training, and visualization.
 
-
+<br/><br/>
 
 ## Contributions
 
 - Joint Template-Learning and Registration Mode – **CMT-reg**
 - CartiMorph Toolbox (CMT)
 
-
+<br/><br/>
 
 ## :rocket: Models for CMT
 
 - [models](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Models) (both for segmentation and registration) for this work – can be loaded into CMT
 - more models from the [CMT models page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md)
 
-
+<br/><br/>
 
 ## Quick Start
 
@@ -42,7 +42,7 @@ conda create --name CMT_AMAI24paper --file env.txt
 
 - For model training in CMT, see the [instructions for CMT](https://github.com/YongchengYAO/CartiMorph-Toolbox?tab=readme-ov-file#step-by-step-instruction)
 
-
+<br/><br/>
 
 ## Code
 
@@ -57,7 +57,7 @@ We compared the proposed **CMT-reg** with other template learning and/or registr
   - *Network Width*: x3
   - *Loss*: MSE+LNCC
 
-
+<br/><br/>
 
 ## :rocket: Data for Validation
 
@@ -87,7 +87,7 @@ We compared the proposed **CMT-reg** with other template learning and/or registr
      - `CMT-AMAI24paper/Code/Aladdin/`
      - `CMT-AMAI24paper/Code/LapIRN/`
 
-
+<br/><br/>
 
 ## Raw Data for Model Training
 
@@ -96,7 +96,7 @@ We compared the proposed **CMT-reg** with other template learning and/or registr
 
 Data Information: [here](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/DataInfo/OAIZIB) (link CMT-ID to OAI-SubjectID)
 
-
+<br/><br/>
 
 ## :rocket: Preprocessed Data for Model Training: [OAIZIB-CM](https://drive.google.com/drive/folders/13_afAKSH7ZMOI_Nk2gfoihbJKwafw1l9?usp=sharing)
 
@@ -106,7 +106,7 @@ If you use the preprocessed data, please note that the manual segmentation annot
 
 - Automated Segmentation of Knee Bone and Cartilage combining Statistical Shape Knowledge and Convolutional Neural Networks: Data from the Osteoarthritis Initiative (https://doi.org/10.1016/j.media.2018.11.009)
 
-
+<br/><br/>
 
 ## Citation
 
@@ -126,7 +126,7 @@ If you use the preprocessed data, please note that the manual segmentation annot
 }
 ```
 
-
+<br/><br/>
 
 ## Acknowledgment
 
