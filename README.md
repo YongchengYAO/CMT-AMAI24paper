@@ -98,7 +98,7 @@ Data Information: [here](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/ma
 
 <br/><br/>
 
-## :rocket: Preprocessed Data for Model Training: [OAIZIB-CM](https://drive.google.com/drive/folders/13_afAKSH7ZMOI_Nk2gfoihbJKwafw1l9?usp=sharing)
+## :rocket: Preprocessed Data for Model Training: OAIZIB-CM
 
 **This is the data used for training CMT-reg and nnUNet in CMT**
 
