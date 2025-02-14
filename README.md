@@ -115,32 +115,23 @@ Data Information: [here](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/ma
 
 ## Citation
 
-```
-(conference proceedings in press)
-```
+Please cite these papers if you use CMT.
 
 ```
-@misc{yao2024quantifyingkneecartilageshape,
-      title={Quantifying Knee Cartilage Shape and Lesion: From Image to Metrics}, 
-      author={Yongcheng Yao and Weitian Chen},
-      year={2024},
-      eprint={2409.07361},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV},
-      url={https://arxiv.org/abs/2409.07361}, 
+@InProceedings{10.1007/978-3-031-82007-6_16,
+author="Yao, Yongcheng
+and Chen, Weitian",
+editor="Wu, Shandong
+and Shabestari, Behrouz
+and Xing, Lei",
+title="Quantifying Knee Cartilage Shape and Lesion: From Image to Metrics",
+booktitle="Applications of Medical Artificial Intelligence",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="162--172"
 }
 ```
-
-<br/><br/>
-
-## Acknowledgment
-
-The training, inference, and evaluation code for Aladdin and LapIRN are adapted from these GitHub repos:
-
-- Aladdin: https://github.com/uncbiag/Aladdin
-- LapIRN: https://github.com/cwmok/LapIRN
-
-CMT is based on CartiMorph: https://github.com/YongchengYAO/CartiMorph
 
 ```
 @article{YAO2024103035,
@@ -154,4 +145,15 @@ issn = {1361-8415},
 doi = {https://doi.org/10.1016/j.media.2023.103035}
 }
 ```
+
+<br/><br/>
+
+## Acknowledgment
+
+The training, inference, and evaluation code for Aladdin and LapIRN are adapted from these GitHub repos:
+
+- Aladdin: https://github.com/uncbiag/Aladdin
+- LapIRN: https://github.com/cwmok/LapIRN
+
+CMT is based on CartiMorph: https://github.com/YongchengYAO/CartiMorph
 
