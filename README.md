@@ -104,8 +104,8 @@ Data Information: [here](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/ma
 
 - | Source       | link                                                         |
   | ------------ | ------------------------------------------------------------ |
+  | Huggingface  | [here (recommended)](https://huggingface.co/datasets/YongchengYAO/OAIZIB-CM/tree/main) |
   | Google Drive | [here](https://drive.google.com/drive/folders/13_afAKSH7ZMOI_Nk2gfoihbJKwafw1l9?usp=share_link) |
-  | Huggingface  | [here](https://huggingface.co/datasets/YongchengYAO/OAIZIB-CM/tree/main) |
 
   If you use our preprocessed data, please note that the manual segmentation annotations come from this work: 
 
