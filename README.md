@@ -2,9 +2,10 @@
 
 ## Paper
 
+This is the official repo for the paper:
 **Quantifying Knee Cartilage Shape and Lesion: From Image to Metrics**
 
-[AMAI’24](https://sites.google.com/view/amai2024/home) (MICCAI workshop) (in press)
+[AMAI’24](https://sites.google.com/view/amai2024/home) (MICCAI workshop)
 
 ![paper-CMT](README.assets/paper-CMT.png)
 
@@ -118,8 +119,21 @@ If you use our preprocessed data, please note that:
 
 ## Citation
 
-Please cite these papers if you use CMT.
+- Please cite both papers if you use **CartiMorph Toolbox**
+- Please cite the first paper if you use the **OAIZIB-CM** dataset
 
+```
+@article{YAO2024103035,
+title = {CartiMorph: A framework for automated knee articular cartilage morphometrics},
+journal = {Medical Image Analysis},
+author = {Yongcheng Yao and Junru Zhong and Liping Zhang and Sheheryar Khan and Weitian Chen},
+volume = {91},
+pages = {103035},
+year = {2024},
+issn = {1361-8415},
+doi = {https://doi.org/10.1016/j.media.2023.103035}
+}
+```
 ```
 @InProceedings{10.1007/978-3-031-82007-6_16,
 author="Yao, Yongcheng
@@ -136,18 +150,6 @@ pages="162--172"
 }
 ```
 
-```
-@article{YAO2024103035,
-title = {CartiMorph: A framework for automated knee articular cartilage morphometrics},
-journal = {Medical Image Analysis},
-author = {Yongcheng Yao and Junru Zhong and Liping Zhang and Sheheryar Khan and Weitian Chen},
-volume = {91},
-pages = {103035},
-year = {2024},
-issn = {1361-8415},
-doi = {https://doi.org/10.1016/j.media.2023.103035}
-}
-```
 
 <br/><br/>
 
