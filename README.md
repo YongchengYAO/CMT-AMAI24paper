@@ -1,40 +1,42 @@
 # CMT-AMAI24paper
 
-## Paper
 
+## Paper
 This is the official repo for the paper:
-**Quantifying Knee Cartilage Shape and Lesion: From Image to Metrics**
+
+[**Quantifying Knee Cartilage Shape and Lesion: From Image to Metrics**](https://link.springer.com/chapter/10.1007/978-3-031-82007-6_16)
 
 [AMAI’24](https://sites.google.com/view/amai2024/home) (MICCAI workshop)
 
 ![paper-CMT](README.assets/paper-CMT.png)
 
-<br/><br/>
+<br/>
+
 
 ## TL;DR
-
 [CMT](https://github.com/YongchengYAO/CartiMorph-Toolbox), a toolbox for knee MRI analysis, model training, and visualization.
 
-<br/><br/>
+<br/>
+
 
 ## Contributions
-
 - Joint Template-Learning and Registration Mode – **CMT-reg**
 - CartiMorph Toolbox (CMT)
+  
+<br/>
 
-<br/><br/>
 
 ## :rocket: Models for CMT
 
 - [models](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Models) (both for segmentation and registration) for this work – can be loaded into CMT
 - more models from the [CMT models page](https://github.com/YongchengYAO/CartiMorph-Toolbox/blob/main/Models/model_releases.md)
+  
+<br/>
 
-<br/><br/>
 
 ## Quick Start
-
 - For model evaluation and the training of other SoTA models:
-
+  
 ```bash
 git clone https://github.com/YongchengYAO/CMT-AMAI24paper.git
 cd CMT-AMAI24paper
@@ -43,10 +45,10 @@ conda create --name CMT_AMAI24paper --file env.txt
 
 - For model training in CMT, see the [instructions for CMT](https://github.com/YongchengYAO/CartiMorph-Toolbox?tab=readme-ov-file#step-by-step-instruction)
 
-<br/><br/>
+<br/>
+
 
 ## Code
-
 We compared the proposed **CMT-reg** with other template learning and/or registration models – Aladdin and LapIRN.
 
 - [Code for Aladdin training, inference, and evaluation](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/Code/Aladdin/Study) (for reproducing the results in Tables 2 & 3)
@@ -57,11 +59,11 @@ We compared the proposed **CMT-reg** with other template learning and/or registr
   - *Training Epoch*: 2000
   - *Network Width*: x3
   - *Loss*: MSE+LNCC
+    
+<br/>
 
-<br/><br/>
 
 ## :rocket: Data for Validation
-
 **This is the data used for reproducing Tables 2 & 3.**
 
 [Data for this repo](https://drive.google.com/drive/folders/1x_8vAgq8NRCKCoVBl-Y5jlk_kvfaYCdt?usp=sharing) for model training, inference, and evaluation
@@ -87,27 +89,27 @@ We compared the proposed **CMT-reg** with other template learning and/or registr
   2. put corresponding `Model` folders to
      - `CMT-AMAI24paper/Code/Aladdin/`
      - `CMT-AMAI24paper/Code/LapIRN/`
+       
+<br/>
 
-<br/><br/>
 
 ## Raw Data for Model Training
-
 - MR Image: [OAI](https://nda.nih.gov/oai/)
 - Annotation: OAI-ZIB
 
 Data Information: [here](https://github.com/YongchengYAO/CMT-AMAI24paper/tree/main/DataInfo/OAIZIB) (link CMT-ID to OAI-SubjectID)
 
-<br/><br/>
+<br/>
+
 
 ## :rocket: Preprocessed Data for Model Training: OAIZIB-CM
-
 **This is the data used for training CMT-reg and nnUNet in CMT**
 
 | Source       | link                                                         |
 | ------------ | ------------------------------------------------------------ |
 | Huggingface  | [here (recommended)](https://huggingface.co/datasets/YongchengYAO/OAIZIB-CM/tree/main) |
 | Zenodo       | [here](https://zenodo.org/records/14934086)
-| Google Drive | [here](https://drive.google.com/drive/folders/13_afAKSH7ZMOI_Nk2gfoihbJKwafw1l9?usp=share_link) |
+| Google Drive | [here](https://drive.google.com/drive/folders/13_afAKSH7ZMOI_Nk2gfoihbJKwafw1l9?usp=share_link) 
 
 This is the official release of **OAIZIB-CM** dataset 
 - OAIZIB-CM is based on the OAIZIB dataset
@@ -119,10 +121,11 @@ This is the official release of **OAIZIB-CM** dataset
   - corresponding 20-ROI atlas for articular cartilages
 - It is compulsory to cite these papers if you use the dataset
   - [CartiMorph: A framework for automated knee articular cartilage morphometrics](https://doi.org/10.1016/j.media.2023.103035)
-<br/><br/>
+    
+<br/>
+
 
 ## Citation
-
 - Please cite both papers if you use **CartiMorph Toolbox**
 - Please cite the first paper if you use the **OAIZIB-CM** dataset
 
@@ -153,16 +156,13 @@ address="Cham",
 pages="162--172"
 }
 ```
-
-
 <br/><br/>
 
-## Acknowledgment
 
+## Acknowledgment
 The training, inference, and evaluation code for Aladdin and LapIRN are adapted from these GitHub repos:
 
 - Aladdin: https://github.com/uncbiag/Aladdin
 - LapIRN: https://github.com/cwmok/LapIRN
 
 CMT is based on CartiMorph: https://github.com/YongchengYAO/CartiMorph
-
